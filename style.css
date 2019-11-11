@@ -501,3 +501,13 @@ h6{
 	color: #111;
 	background: #eee;
 }
+
+.hero-content{
+    margin-left: -5%
+}
+
+.hero-content p{
+    font-weight: 300;
+    line-height: 36px;
+    color: grey;
+}

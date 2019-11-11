@@ -4,7 +4,7 @@ html,body{
     margin:0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 50%;
     font-family: "Roboto Mono" !important;
     background: #1f1c1c !important;
     background: #0f0f0f !important;
@@ -13,7 +13,7 @@ html,body{
 
 .whitespace{
     width: 100%;
-    height: 100px;
+    height: 80px;
 }
 
 @media(max-width: 768px){
@@ -234,7 +234,7 @@ nav #menu li a:hover{
     /* Hero section */
 
 .hero{
-    height: 100vh;
+    height: 87vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -450,17 +450,21 @@ h6{
     background: #55acee;
 }
 
-#yt::before{
+#ln::before{
     display: inline-block;
     content: '';
     border-radius: 100%;
     height: 4px;
     width: 4px;
     margin-right: 6px;
-    background: #c4302b;
+    background: #2b68c4;
 }
 
-#media, #address{
+#media{
+    text-align: left;
+}
+
+#address{
     text-align: right;
 }
 

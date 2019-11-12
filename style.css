@@ -382,7 +382,7 @@ h6{
 }
 
 .project3{
-    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5b26cd1b-712a-460f-b1db-5b9c76a96d76/d9nth9w-5e1e7693-d795-4367-bfb9-5da756392e03.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzViMjZjZDFiLTcxMmEtNDYwZi1iMWRiLTViOWM3NmE5NmQ3NlwvZDludGg5dy01ZTFlNzY5My1kNzk1LTQzNjctYmZiOS01ZGE3NTYzOTJlMDMuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.AxxL79dR26Zo-Oll5cWGqAYwmMUNywM-30TfdvwFt2I) no-repeat 50% 50%;
+    background: url() no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -551,4 +551,76 @@ h6{
     font-weight: 300;
     line-height: 36px;
     color: grey;
+}
+
+/*-------------Contact form----------------*/
+
+#contact-form{
+    margin: 5% 20%;
+}
+
+#contact-form ul{
+    list-style: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+#contact-form li{
+    padding: 10px;
+}
+
+#contact-form li:last-of-type{
+    border-bottom: none;
+}
+
+#contact-form label{
+    display: block;
+    font-size: .8em;
+    color: #999;
+    padding-left: 5px;
+}
+
+#contact-form input, #contact-form textarea{
+    width: 100%;
+    padding: 5px;
+    border: none;
+    resize: vertical;
+    background: transparent;
+    color: #fff;
+    font-weight: bolder;
+}
+
+input:focus{
+    outline: none;
+    border: none;
+}
+
+textarea:focus{
+    outline: none;
+    border: none;
+}
+.textarea{
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.send{
+    margin-left: 50px;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    background: transparent;
+    color: #dfdfdf;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.send:hover{
+    background: #dfdfdf;
+    color: #101010;
+}
+
+@media(max-width: 768){
+    #contact-form{
+        margin: 5% -8%;
+        width: 98%;
+    }
 }
